@@ -15,15 +15,15 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     OurservicesComponent,
     ReviewsComponent,
-    ContactusComponent
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     CarouselModule,
-    RouterModule
+    RouterModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
